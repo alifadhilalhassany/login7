@@ -74,7 +74,7 @@
         $username = $_POST['username'];
         $password = md5( $_POST['password']);  
 
-        $con = mysqli_connect('localhost','root','','user.account');
+        $con = mysqli_connect('localhost','id22069716_a7','','id22069716_aa');
         $cmd = "INSERT INTO `aa`(`name`, `username`, `password`, `per`)VALUES ('$name' ,'$username' , '$password' ,1)";
         
         if (mysqli_query($con,$cmd)) {

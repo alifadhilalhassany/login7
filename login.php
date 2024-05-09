@@ -61,7 +61,7 @@
 <?php 
     session_start();
     // هذا الكود يسوي عملية تسجيل الدخول
-    $con = mysqli_connect('localhost','root','','user.account');
+    $con = mysqli_connect('localhost','id22069716_a7','','id22069716_aa');
     $cmd = 'SELECT * FROM `aa`';  //يجيب القيم من الجدول
     $q = mysqli_query($con, $cmd);//ويخزنها بهذا المتغير 
     if (isset($_POST['login'])) {

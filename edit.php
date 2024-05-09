@@ -75,7 +75,7 @@
         $username= $_POST['username'];
         $per= $_POST['per'];
         
-        $con = mysqli_connect('localhost','root','','user.account');
+        $con = mysqli_connect('localhost','id22069716_a7','','id22069716_aa');
         $cmds = "UPDATE `aa` SET `name`= '$name' , `username`= '$username' , `per`= '$per' WHERE id = '$id'";
         if (mysqli_query($con,$cmds)) {
             echo "<script>alert('update');</script>";

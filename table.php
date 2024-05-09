@@ -49,7 +49,7 @@
         </thead>
         <tbody>
             <?php //هذا الكود راح يجيب البيانات من الداتابيس ويعرضها بلجدول ويحتوي على زرين 
-                $con = mysqli_connect('localhost','root','','user.account');
+                $con = mysqli_connect('localhost','id22069716_a7','','id22069716_aa');
                 $cmd = 'SELECT * FROM `aa`';
                 $q = mysqli_query($con,$cmd);
                 while ($row = mysqli_fetch_array($q)) {
